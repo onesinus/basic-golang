@@ -19,5 +19,7 @@ func Create(w http.ResponseWriter, r *http.Request) {
     json.Unmarshal(reqBody, &user)
 
     entities.Users = append(entities.Users, user)
+    w.WriteHeader(http.StatusCreated)
+
     json.NewEncoder(w).Encode(user)
 }
