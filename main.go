@@ -8,6 +8,7 @@ import (
 
 	"github.com/onesinus/basic-golang/entities"
 	"github.com/onesinus/basic-golang/user"
+	"github.com/onesinus/basic-golang/auth"
 )
 
 func welcomePage(w http.ResponseWriter, r *http.Request) {
@@ -24,6 +25,7 @@ func handleRequests() {
 	routes.HandleFunc("/users", user.Create).Methods("POST")
 	routes.HandleFunc("/users/{id}", user.Update).Methods("PUT")
 	routes.HandleFunc("/users/{id}", user.Delete).Methods("DELETE")
+	routes.HandleFunc("/auth/login", auth.Login).Methods("POST")
 
 	fmt.Println("Server is running on port 3000")
 	log.Fatal(http.ListenAndServe(":3000", routes))
