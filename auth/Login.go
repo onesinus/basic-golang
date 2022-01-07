@@ -12,6 +12,7 @@ import (
 
 func Login(w http.ResponseWriter, r *http.Request) {
     fmt.Println("Endpoint Hit: [POST] /auth/login")
+    w.Header().Set("Content-Type", "application/json")
 
     reqBody, _ := ioutil.ReadAll(r.Body)
 
