@@ -27,8 +27,8 @@ func handleRequests() {
 	routes.HandleFunc("/users/{id}", user.Delete).Methods("DELETE")
 	routes.HandleFunc("/auth/login", auth.Login).Methods("POST")
 
-	fmt.Println("Server is running on port 3000")
-	log.Fatal(http.ListenAndServe(":3000", routes))
+	fmt.Println("Server is running on port 7314")
+	log.Fatal(http.ListenAndServe(":7314", routes))
 }
 
 func main() {
