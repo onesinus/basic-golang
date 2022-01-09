@@ -1,6 +1,8 @@
 # Run the application
-1. install *go* on your operating system
-2. execute **go run main.go** on your terminal
+1. install **go** on your operating system
+2. Fork this repository, then **clone the forked repository to your computer**
+3. **Open terminal and change directory location** to the project
+4. execute **go run main.go** on your terminal
 
 # API
 
