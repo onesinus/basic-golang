@@ -1,5 +1,5 @@
 # Run the application
-1. install go on your operating system
+1. install *go* on your operating system
 2. execute **go run main.go** on your terminal
 
 # API
