@@ -3,7 +3,7 @@ services:
   basic_golang:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
       - '7314:7314'
     volumes:
