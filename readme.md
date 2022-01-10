@@ -1,3 +1,6 @@
+# Deployed Application (for testing purpose)
+http://ec2-13-214-161-205.ap-southeast-1.compute.amazonaws.com:7314/
+
 # Run the application
 1. install **go** on your operating system
 2. Fork this repository, then **clone the forked repository to your computer**
