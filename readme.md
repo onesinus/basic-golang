@@ -1,5 +1,5 @@
 # Deployed Application (for testing purpose)
-http://ec2-13-214-161-205.ap-southeast-1.compute.amazonaws.com:7314/
+http://ec2-3-1-220-190.ap-southeast-1.compute.amazonaws.com:7314/
 
 # Run the application
 1. install **go** on your operating system
